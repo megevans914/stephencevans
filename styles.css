@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and navigation bar */
+header {
+  font-family: "DM Sans", sans-serif; /* Sets the font for the header section */
+  width: 100%; /* Full width for header */
+  background-color: #000000;  /* Black background color */
+  padding: 1rem 0; /* Adds vertical padding above and below header content */
+}
+
+/* Navigation list - centered and horizontal */
+nav ul {
+  list-style-type: none; /* Removes default bullet points from list */
+  display: flex; /* Aligns list items in a row */
+  justify-content: center; /* Centers the navigation menu */
+}
+
+/* Spacing between navigation items */
+nav ul li {
+  margin: 0rem 1rem; /* Adds horizontal space between navigation items */
+}
+
+/* Link styling - white color with hover effect */
+nav ul li a {
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Sets link text color to white */
+  font-weight: normal; /* Normal font weight for links */
+  font-size: 1rem; /* Sets font size of links */
+  transition: color 0.3s; /* Smooth transition for hover color change */
+}
+
+/* Hover effect for navigation links - changes color to a lighter shade when hovered */
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* Main Content and Section Styling */
+main {
+  display: flex; /* Centers main content within its container */
+  justify-content: center; /* Aligns content horizontally at center */
+  width: 100%; /* Full width for main content */
+  padding: 0; /* Adds padding around main content */
+}
+
+/* Common class for all section pages */
+.section-page {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+/* HOME PAGE */
+section#home {
+  font-family: "Orbitron", sans-serif;
+  background-image: url(background.jpeg);
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image */
+  
+
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack items vertically */
+}
+
+section#home h1 {
+  font-size: 7rem;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 0.4rem;
+}
+
+section#home strong {
+  font-size: 5rem;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 0.25rem;
+}
+
+/* ABOUT PAGE */
+section#about {
+  display: flex;
+  align-items: center; /* Vertically center content within the section */
+  justify-content: flex-start; /* Align items to the left side */
+  padding: 2rem;
+  height: 100vh;
+}
+
+section#about img {
+  border-radius: 25px; /* Rounds the corners of the image */
+  max-width: 30%; /* Controls the width of the image */
+  height: 90%; /* Maintain the image's aspect ratio */
+  margin-right: 7rem; /* Adds space between the image and the text content */
+  margin-left: 7rem;
+}
+
+section#about h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 1rem; /* Space between heading and paragraph */
+  position: absolute;
+  top: 6rem;
+}
+
+section#about p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+/* DOS PAGE */
+section#DOS {
+  display: flex;
+  flex-direction: row; /* Arrange the text and image-button columns side by side */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Add space between the columns */
+  padding: 2rem;
+  height: 100vh;
+}
+
+section#DOS .text-column {
+  display: flex;
+  flex-direction: column; /* Stack the heading and paragraph vertically */
+  justify-content: center; /* Center text vertically */
+  width: 50%;
+  padding-right: 2rem;
+  padding-left: 7rem;
+}
+
+section#DOS h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+section#DOS p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section#DOS .image-button-column {
+  display: flex;
+  flex-direction: column; /* Stack the image and button vertically */
+  align-items: center; /* Center image and button horizontally */
+  width: 50%; /* Take up half the width of the section */
+}
+
+section#DOS img {
+  border-radius: 25px;
+  min-width: 18.75rem; /* Adjust size of the image */
+  min-height: 28rem;
+  margin-bottom: 2rem; /* Space between the image and the button */
+}
+
+section#DOS button {
+  font-family: "Orbitron", sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 18rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: white; /* Button color */
+  color: black;
+  margin-top: 1rem; /* Space above the button */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+}
+
+section#DOS button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+
+/* MINUTIAE PAGE */
+section#minutiae {
+  display: flex;
+  flex-direction: row; /* Arrange the text and image-button columns side by side */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Add space between the columns */
+  padding: 2rem;
+  height: 100vh;
+}
+
+section#minutiae .text-column {
+  display: flex;
+  flex-direction: column; /* Stack the heading and paragraph vertically */
+  justify-content: center; /* Center text vertically */
+  width: 50%;
+  padding-right: 7rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+section#minutiae h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+section#minutiae p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section#minutiae .image-button-column {
+  display: flex;
+  flex-direction: column; /* Stack the image and button vertically */
+  align-items: center; /* Center image and button horizontally */
+  width: 50%; /* Take up half the width of the section */
+}
+
+section#minutiae img {
+  border-radius: 25px;
+  min-width: 18.75rem; /* Adjust size of the image */
+  min-height: 28rem;
+  margin-bottom: 2rem; /* Space between the image and the button */
+}
+
+section#minutiae button {
+  font-family: "Orbitron", sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 18rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: white; /* Button color */
+  color: black;
+  margin-top: 1rem; /* Space above the button */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+}
+
+section#minutiae button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+/* SHORT STORIES PAGE */
+section#short-stories {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Add space between the columns */
+  padding: 2rem;
+  height: 100vh;
+}
+
+section#short-stories .left-column {
+  display: flex;
+  flex-direction: column; /* Stack the image and button vertically */
+  align-items: center; /* Center image and button horizontally */
+  width: 50%; /* Take up half the width of the section */
+}
+
+section#short-stories h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 3rem; /* Space below the heading */
+  text-align: center;
+}
+
+section#short-stories img {
+  border-radius: 25px;
+  min-width: 20.75rem; /* Adjust size of the image */
+  min-height: 24rem;
+  margin-bottom: 2rem; /* Space between the image and the button */
+}
+
+section#short-stories ul {
+  font-family: "DM Sans", sans-serif;
+  list-style-type: none; /* Removes the bullet points from the list */
+  width: 50%;
+  font-size: 0.7rem;
+  padding-top: 2rem;
+  
+}
+
+section#short-stories ul li {
+  margin-bottom: 1rem; /* Adds some space between list items, if needed */
+  padding-right: 3rem;
+}
+
+section#short-stories ul li a {
+  display: inline-block; /* Makes the link behave like a block-level element */
+  padding: 0.3rem 0.8rem; /* Adds space inside the button */
+  font-family: "DM Sans", sans-serif; /* Sets the font to match your design */
+  text-decoration: none; /* Removes the underline */
+  color: black; /* Text color */
+  background-color: white; /* Button background color */
+  border-radius: 5px; /* Rounds the corners */
+  border: none; /* Removes default border */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  margin-bottom: 0.5rem;
+}
+
+section#short-stories ul li a:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+/* CONTACT PAGE */
+section#contact {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 2rem;
+  height: 100vh;
+  font-family: "Orbitron", sans-serif;
+}
+
+section#contact h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 2rem; /* Space below the heading */
+  text-align: center;
+}
+
+section#contact a[href*="mailerlite"] button {
+  font-size: 2rem; /* Make this button larger */
+  width: 30rem; /* Increase width */
+  height: 5rem; /* Increase height */
+  margin-bottom: 2rem; /* Space below this button */
+}
+
+section#contact button {
+  font-family: "Orbitron", sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  width: 18rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #0056b3; /* Button background color */
+  color: black;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+section#contact button:hover {
+  background-color: white; /* Darker background on hover */
+}
+
+section#contact .button-group {
+  display: flex;
+  gap: 1rem; /* Space between the buttons */
+}
+
+/* SAMPLE PAGE */
+section#sample {
+  font-family: "Orbitron", sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+section#sample h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+
+section#sample p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 6;
+  line-height: 1.4;
+  margin-bottom: 0.3rem;
+}
