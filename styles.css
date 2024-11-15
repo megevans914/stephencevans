@@ -45,7 +45,6 @@ main {
   justify-content: center; /* Aligns content horizontally at center */
   width: 100%; /* Full width for main content */
   padding: 0; /* Adds padding around main content */
-  flex-direction: column;
 }
 
 /* Common class for all section pages */
@@ -254,7 +253,6 @@ section#short-stories {
   justify-content: space-between; /* Add space between the columns */
   padding: 2rem;
   height: 100vh;
-  flex-direction: column;
 }
 
 section#short-stories .left-column {
@@ -377,82 +375,4 @@ section#sample p {
   font-size: 6;
   line-height: 1.4;
   margin-bottom: 0.3rem;
-}
-
-/* Media Query for Tablets (768px and below) */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  section#index h1 {
-    font-size: 5rem;
-  }
-
-  section#index strong {
-    font-size: 3rem;
-  }
-
-  section#about,
-  section#DOS,
-  section#minutiae {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
-
-  section#about img,
-  section#DOS img,
-  section#minutiae img {
-    max-width: 80%;
-    height: auto;
-    margin: 1rem 0;
-  }
-
-  section#DOS .text-column,
-  section#minutiae .text-column {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-  }
-}
-
-/* Media Query for Mobile Devices (480px and below) */
-@media (max-width: 480px) {
-  nav ul li {
-    margin: 0.5rem 0;
-  }
-
-  nav ul li a {
-    font-size: 0.9rem;
-  }
-
-  section#index h1 {
-    font-size: 3rem;
-  }
-
-  section#index strong {
-    font-size: 2rem;
-  }
-
-  section#about h1,
-  section#DOS h1,
-  section#minutiae h1,
-  section#short-stories h1,
-  section#contact h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  section#short-stories img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  section#contact button {
-    width: 100%;
-    font-size: 1rem;
-  }
 }
