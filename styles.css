@@ -393,6 +393,7 @@ section#sample p {
   /* Main Content and Section Styling */
   section#index h1 {
     font-size: 5rem;
+    text-align: center;
   }
 
   section#index strong {
