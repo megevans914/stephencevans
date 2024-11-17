@@ -323,7 +323,7 @@ section#sample p {
   }
 
   section#short-stories {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   section#short-stories ul {
