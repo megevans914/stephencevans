@@ -162,7 +162,7 @@ section#short-stories {
   padding: 2rem; /* Space around the entire section */
   display: flex;
   flex-direction: column; /* Stack elements vertically */
-  align-items: flex-start; /* Align content to the left */
+  align-items: flex-start;
 }
 
 section#short-stories h1 {
@@ -171,24 +171,24 @@ section#short-stories h1 {
   margin-bottom: 1rem; /* Space below the heading */
   margin-right: 1rem; /* Space to the right of h1 */
   margin-left: 2rem;
-  width: 100%; /* Centered within the left half of the page */
-  text-align: left; /* Align text to the left */
+  width: 80%; /* Centered within the left half of the page */
+  text-align: center; /* Align text to the center */
 }
 
 section#short-stories img {
-  display: flex;
-  margin-bottom: 2rem; /* Space below the image */
-  width: 100%; /* Keep the image within the left half of the page */
-  align-items: center;
+  display: block;
+  margin: 0 auto 2rem 10rem; /* CHANGED: center the image horizontally */
+  width: 80%; /* Keep the image within the left half of the page */
   height: auto; /* Maintain aspect ratio */
   border-radius: var(--border-radius);
+  object-fit: cover;
+  margin-top: 1rem;
 }
 
 section#short-stories ul {
   width: 100%; /* List takes up the right half of the page */
   list-style: none;
   padding: 0; /* Remove extra padding */
-  margin-left: 2rem; /* Space to the left of the list */
   display: block; /* Stack items vertically */
 }
 
@@ -196,7 +196,6 @@ section#short-stories ul li {
   margin-bottom: 0.5rem; /* Space between list items */
 }
 
-/* Styling the <a> tags inside <li> */
 section#short-stories ul li a {
   display: block; /* Make the link block-level */
   padding: 0.5rem; /* Space inside each button */
@@ -214,7 +213,6 @@ section#short-stories ul li a:hover {
   color: var(--color-text); /* Change text color on hover */
 }
 
-/* Styling the <p> tags */
 section#short-stories ul li p {
   display: block; /* Ensure <p> behaves like a block element */
   color: var(--color-text); /* Text color */
