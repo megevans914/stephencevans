@@ -168,7 +168,7 @@ section#short-stories {
 section#short-stories h1 {
   font-family: var(--font-primary);
   font-size: 2.5rem;
-  margin-bottom: 2rem; /* Space below the heading */
+  margin-bottom: 1rem; /* Space below the heading */
   margin-right: 1rem; /* Space to the right of h1 */
   margin-left: 2rem;
   width: 100%; /* Centered within the left half of the page */
@@ -177,16 +177,15 @@ section#short-stories h1 {
 
 section#short-stories img {
   display: flex;
-  margin-left: 11rem;
   margin-bottom: 2rem; /* Space below the image */
-  width: 100%; 
+  width: 100%; /* Keep the image within the left half of the page */
   align-items: center;
   height: auto; /* Maintain aspect ratio */
   border-radius: var(--border-radius);
 }
 
 section#short-stories ul {
-  width: 50%; /* List takes up the right half of the page */
+  width: 100%; /* List takes up the right half of the page */
   list-style: none;
   padding: 0; /* Remove extra padding */
   margin-left: 2rem; /* Space to the left of the list */
