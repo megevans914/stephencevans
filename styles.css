@@ -172,13 +172,12 @@ section#short-stories h1 {
   margin-right: 1rem; /* Space to the right of h1 */
   margin-left: 2rem;
   width: 50%; /* Centered within the left half of the page */
-  text-align: center; /* Align text to the left */
+  text-align: left; /* Align text to the left */
 }
 
 section#short-stories img {
   display: flex;
   margin-bottom: 2rem; /* Space below the image */
-  margin-left: 4rem;
   width: 50%; /* Keep the image within the left half of the page */
   height: auto; /* Maintain aspect ratio */
   border-radius: var(--border-radius);
