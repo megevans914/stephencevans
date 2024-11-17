@@ -172,12 +172,12 @@ section#short-stories h1 {
   margin-right: 1rem; /* Space to the right of h1 */
   margin-left: 2rem;
   width: 80%; /* Centered within the left half of the page */
-  text-align: center; /* Align text to the center */
+  text-align: left; /* Align text to the center */
 }
 
 section#short-stories img {
   display: block;
-  margin: 0 auto 2rem 10rem; /* CHANGED: center the image horizontally */
+  margin: 0 auto 2rem 2rem; /* CHANGED: center the image horizontally */
   width: 80%; /* Keep the image within the left half of the page */
   height: auto; /* Maintain aspect ratio */
   border-radius: var(--border-radius);
@@ -323,7 +323,7 @@ section#sample p {
   }
 
   section#short-stories {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   section#short-stories ul {
