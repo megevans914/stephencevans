@@ -284,11 +284,9 @@ section#sample p {
   nav ul {
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 1rem; /* Add some padding to the sides */
-    max-width: 90%; /* Limit the width of the navbar to 90% of the screen */
-    margin: 0 auto; /* Center the navbar */
     margin-top: 0.2rem;
-    margin-bottom: 0.2rem
+    margin-bottom: 0.2rem;
+    font-size: 0.5rem;
   }
 
   section#index h1 {
