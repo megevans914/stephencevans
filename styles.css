@@ -168,17 +168,19 @@ section#short-stories {
 section#short-stories h1 {
   font-family: var(--font-primary);
   font-size: 2.5rem;
-  margin-bottom: 1rem; /* Space below the heading */
+  margin-bottom: 2rem; /* Space below the heading */
   margin-right: 1rem; /* Space to the right of h1 */
   margin-left: 2rem;
-  width: 50%; /* Centered within the left half of the page */
+  width: 100%; /* Centered within the left half of the page */
   text-align: left; /* Align text to the left */
 }
 
 section#short-stories img {
   display: flex;
+  margin-left: 11rem;
   margin-bottom: 2rem; /* Space below the image */
-  width: 50%; /* Keep the image within the left half of the page */
+  width: 100%; 
+  align-items: center;
   height: auto; /* Maintain aspect ratio */
   border-radius: var(--border-radius);
 }
