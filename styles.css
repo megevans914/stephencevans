@@ -204,7 +204,7 @@ section#short-stories ul li a {
   background-color: var(--color-text);
   color: var(--color-background);
   border-radius: 5px;
-  text-decoration: none;
+  text-decoration: underline;
   text-align: center;
   margin-bottom: 0.3rem; /* Space between the button and paragraph */
   transition: background-color 0.3s ease; /* Add smooth hover transition */
