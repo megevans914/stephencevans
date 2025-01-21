@@ -111,7 +111,7 @@ section#about p {
 /* Common button styles */
 button {
   font-family: var(--font-primary);
-  padding: 0.5rem 0.5rem;
+  padding: 3rem 3rem;
   border-radius: var(--border-radius);
   background-color: var(--color-text);
   color: var(--color-background);
