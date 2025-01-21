@@ -256,6 +256,11 @@ section#contact .x-profile-button {
   height: 100%;
 }
 
+section#contact .instagram-profile-button {
+  width: 100%;
+  height: 100%;
+}
+
 section#contact .button-group {
   display: flex;
   flex-direction: column;
