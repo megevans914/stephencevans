@@ -263,7 +263,6 @@ section#contact .instagram-profile-button {
 
 section#contact .button-group {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 2rem;
   width: 100%;
