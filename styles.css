@@ -45,10 +45,6 @@ nav ul li a {
   transition: color 0.3s;
 }
 
-nav ul li a:hover {
-  color: #ddd;
-}
-
 /* Common section styles */
 .section-page {
   min-height: 100vh;
@@ -322,7 +318,7 @@ section#sample p {
   }
 
   .text-column {
-    width: 50%;
+    width: 100%;
     padding: 0 2rem;
   }
 
@@ -331,12 +327,47 @@ section#sample p {
   }
 
   section#short-stories {
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#short-stories h1 {
+    width: 100%;
+    align-items: center; /* Center the heading */
   }
 
   section#short-stories ul {
-    width: 50%;
+    width: 85%;
   }
+  
+  section#short-stories ul li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  section#short-stories ul li h2 {
+    font-family: var(--font-primary);
+    flex: 1 1 40%;
+    font-weight: bold;
+    color: var(--color-accent);
+    align-items: left;
+  }
+  
+  section#short-stories ul li p {
+    flex: 1 1 60%;
+    margin-left: auto;
+    text-align: right;
+    width: 80%;
+  }
+
+  section#short-stories ul li a {
+    width: 300px;
+    margin-left: auto;
+    align-items: left;
+  }
+
 
   section#contact .button-group {
     flex-direction: row;
