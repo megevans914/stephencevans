@@ -167,8 +167,16 @@ section#short-stories h1 {
   margin-bottom: 1rem; /* Space below the heading */
   margin-right: 1rem; /* Space to the right of h1 */
   margin-left: 2rem;
-  width: 80%; /* Centered within the left half of the page */
-  text-align: left; /* Align text to the center */
+  width: 100%;
+  text-align: left;
+}
+
+section#short-stories ul li h2 {
+  font-family: var(--font-primary);
+  flex: 1 1 40%;
+  font-weight: bold;
+  color: var(--color-accent);
+  align-items: left;
 }
 
 section#short-stories img {
@@ -358,7 +366,7 @@ section#sample p {
   section#short-stories ul li p {
     flex: 1 1 60%;
     margin-left: auto;
-    text-align: right;
+    text-align: left;
     width: 80%;
   }
 
