@@ -75,7 +75,7 @@ nav ul li a {
 .menu {
     display: none;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;;
     top: 60px; /* adjust as needed */
     right: 0;
     background: var(--color-background);
@@ -90,7 +90,7 @@ nav ul li a {
   color: white;
   display: block;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 /* Show menu when checked */
