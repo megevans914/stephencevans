@@ -455,3 +455,12 @@ section#sample p {
     width: auto;
   }
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background: var(--color-background);
+}
