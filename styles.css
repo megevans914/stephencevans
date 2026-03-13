@@ -285,6 +285,7 @@ section#in-the-works {
 /* upcoming events page */
 section#upcoming-events {
   background-color: #000000;
+  background-image: none;
 }
 
 /* Contact page */
