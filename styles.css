@@ -277,6 +277,16 @@ section#short-stories ul li p {
   text-align: left;
 }
 
+/*in the works page*/
+section#in-the-works {
+  background-color: #000000;
+}
+
+/* upcoming events page */
+section#upcoming-events {
+  background-color: #000000;
+}
+
 /* Contact page */
 section#contact {
   padding: 1rem;
