@@ -280,10 +280,12 @@ section#short-stories ul li p {
 /*in the works page*/
 section#in-the-works {
   background-color: #000000;
+  font-family: var(--font-primary);
 }
 
 section#in-the-works p {
   text-align: left;
+  font-family: var(--font-secondary);
 }
 
 section#in-the-works h1 {
