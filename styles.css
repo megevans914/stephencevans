@@ -291,8 +291,9 @@ section#in-the-works h1 {
 }
 
 section#in-the-works h2 {
+  color: var(--color-accent);
   font-family: var(--font-primary);
-  text-align: center;
+  text-align: left;
 }
 
 section#in-the-works p {
@@ -483,8 +484,7 @@ section#sample p {
     align-items: flex-start;
   }
 
-  section#in-the-works h1,
-  section#in-the-works h2 {
+  section#in-the-works h1 {
     width: 100%;
     text-align: center;
     display: block;
