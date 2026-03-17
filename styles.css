@@ -283,15 +283,21 @@ section#in-the-works {
   font-family: var(--font-primary);
 }
 
+section#in-the-works h1 {
+  font-family: var(--font-primary);
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+section#in-the-works h2 {
+  font-family: var(--font-primary);
+  text-align: center;
+}
+
 section#in-the-works p {
   text-align: left;
   font-family: var(--font-secondary);
-}
-
-section#in-the-works h1 {
-  font-family: var(--font-primary);
-  font-size: 2rem;
-  margin: 1rem 0;
 }
 
 /* upcoming events page */
