@@ -299,8 +299,8 @@ section#in-the-works h2 {
 
 section#in-the-works h3 {
   font-family: var(--font-primary);
-  text-align: left;
-  font-size: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
   margin: 1rem 0;
 }
 
