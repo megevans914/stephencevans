@@ -479,6 +479,10 @@ section#sample p {
     align-items: left;
   }
 
+  section#in-the-works p {
+    text-align: left !important;
+  }
+
   section#contact .button-group {
     flex-direction: row;
     justify-content: center; /* Center buttons within the row */
