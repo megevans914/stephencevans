@@ -280,6 +280,7 @@ section#short-stories ul li p {
 /*in the works page*/
 section#in-the-works {
   background-color: #000000;
+  align-items: flex-start;
 }
 
 section#in-the-works h1 {
