@@ -285,6 +285,7 @@ section#in-the-works {
 
 section#in-the-works h1 {
   font-family: var(--font-primary);
+  color: var(--color-accent);
   text-align: center;
   font-size: 2rem;
   margin: 1rem 0;
@@ -294,6 +295,13 @@ section#in-the-works h2 {
   color: var(--color-accent);
   font-family: var(--font-primary);
   text-align: left;
+}
+
+section#in-the-works h3 {
+  font-family: var(--font-primary);
+  text-align: left;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 section#in-the-works p {
