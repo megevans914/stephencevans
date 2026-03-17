@@ -488,7 +488,7 @@ section#sample p {
   }
 
   section#in-the-works p {
-    text-align: left !important;
+    text-align: left;
   }
 
   section#contact .button-group {
