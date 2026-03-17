@@ -479,6 +479,10 @@ section#sample p {
     align-items: left;
   }
 
+  section#in-the-works.section-page {
+    align-items: flex-start;
+  }
+
   section#in-the-works p {
     text-align: left !important;
   }
