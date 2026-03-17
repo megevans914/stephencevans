@@ -483,8 +483,11 @@ section#sample p {
     align-items: flex-start;
   }
 
-  section#in-the-works h1 {
+  section#in-the-works h1,
+  section#in-the-works h2 {
+    width: 100%;
     text-align: center;
+    display: block;
   }
 
   section#in-the-works p {
