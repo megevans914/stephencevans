@@ -113,19 +113,35 @@ section#index {
   font-family: var(--font-primary);
   background-size: cover;
   background-position: center;
+  background-image: url("background.jpeg");
+  -webkit-background-clip: text;
+  background-clip: text;
   text-align: center;
   justify-content: center;
 }
 
 section#index h1 {
   font-size: 3rem;
-  -webkit-text-stroke: 0.2rem var(--color-background);
+  font-family: var(--font-primary);
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem var(--color-text);
   margin-bottom: 1rem;
 }
 
 section#index strong {
   font-size: 2rem;
-  -webkit-text-stroke: 0.15rem var(--color-background);
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.05rem var(--color-text);
 }
 
 /* About page */
