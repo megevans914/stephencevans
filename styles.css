@@ -1,3 +1,4 @@
+/* css style page */
 /* Base styles and resets */
 * {
   margin: 0;
@@ -110,7 +111,6 @@ nav ul li a {
 /* Home page */
 section#index {
   font-family: var(--font-primary);
-  background-image: url(background.jpeg);
   background-size: cover;
   background-position: center;
   text-align: center;
