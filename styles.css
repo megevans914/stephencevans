@@ -141,7 +141,7 @@ section#index strong {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 0.5rem var(--color-text);
+  -webkit-text-stroke: 0.05rem var(--color-text);
 }
 
 /* About page */
