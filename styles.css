@@ -129,7 +129,7 @@ section#index h1 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 0.2rem var(--color-text);
+  -webkit-text-stroke: 0.2rem;
   margin-bottom: 1rem;
 }
 
@@ -141,7 +141,7 @@ section#index strong {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 0.15rem var(--color-text);
+  -webkit-text-stroke: 0.15rem;
 }
 
 /* About page */
