@@ -325,6 +325,39 @@ section#in-the-works p {
   font-family: var(--font-secondary);
 }
 
+section#in-the-works .project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+section#in-the-works .project-image-holder {
+  flex: 0 0 220px;
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  border: 2px dashed var(--color-accent);
+  border-radius: var(--border-radius);
+  color: var(--color-accent);
+  font-family: var(--font-primary);
+  text-align: center;
+  padding: 1rem;
+}
+
+section#in-the-works .project-image-holder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: calc(var(--border-radius) - 2px);
+}
+
+section#in-the-works .project-text {
+  flex: 1;
+}
+
 /* upcoming events page */
 section#upcoming-events {
   background-color: #000000;
@@ -516,6 +549,11 @@ section#sample p {
 
   section#in-the-works p {
     text-align: left;
+  }
+
+  section#in-the-works .project {
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   section#contact .button-group {
