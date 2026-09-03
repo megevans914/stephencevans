@@ -377,6 +377,11 @@ section#upcoming-events h1 {
   margin: 1rem 0;
 }
 
+section#upcoming-events h2 {
+  color: var(--color-accent);
+  font-family: var(--font-primary);
+}
+
 /* Contact page */
 section#contact {
   padding: 1rem;
